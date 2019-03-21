@@ -13,8 +13,8 @@ using namespace std;//jfgjkgkk
 
 
 struct book_list {
-    int booknum;
-    string booktitle;
+    int book;
+    string book;
     string author;
     string description;
     int month;
