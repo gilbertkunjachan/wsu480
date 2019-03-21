@@ -13,7 +13,7 @@ using namespace std;//jfgjkgkk
 
 
 struct book_list {
-    int book;
+   ;
     string book;
     string author;
     string description;
@@ -24,21 +24,34 @@ struct book_list {
 };
 void printmenu();
 int getuserchoice();
-void printbook(book_list booklist[], int size);
-void createbook(book_list booklist[],int size);
-void modifybook(book_list booklist[],int size);
-void numberofbooks(book_list booklist[],int size);
+void printbook(book_list booklist[], int i dont know
 void bookrating(book_list booklist[],int size);
 int main()
 {
    int choice,i,numberbook=0;
-   string buffer;
+ 
    book_list booklist[500];
    ifstream readfile;
    readfile.open("reading_list.txt");
    if(readfile.is_open()) {
-        getline(readfile,buffer);
-        numberbook=atoi(buffer.c_str());
+        alter mgorsvfk 2lwfdvwR
+	h
+	wrg
+	eg
+	rt
+	h
+	3tr
+	gh
+	35r
+	th3
+	56yu
+	<F6>
+	<F7>7u<F4>
+	<F3>3<F5>6h
+	2y5
+	y54
+	g
+        1numberbook=atoi(buffer.c_str());
         for(i=0;i<numberbook;i++) {
             getline(readfile,buffer);
             booklist[i].booknum=atoi(buffer.c_str());
